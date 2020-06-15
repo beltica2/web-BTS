@@ -69,22 +69,65 @@ function plusSlides14(n) {
     showSlides14(slideIndex14 += n);
 }
 
-function currentSlide(n) {
+/* current slide */
+
+function currentSlide1(n) {
   showSlides1(slideIndex1 = n);
-  showSlides2(slideIndex2 = n);
+}
+
+function currentSlide2(n) {
+    showSlides2(slideIndex2 = n);
+}
+
+function currentSlide3(n) {
   showSlides3(slideIndex3 = n);
+}
+
+function currentSlide4(n) {
   showSlides4(slideIndex4 = n);
+}
+
+function currentSlide5(n) {
   showSlides5(slideIndex5 = n);
+}
+
+function currentSlide6(n) {
   showSlides6(slideIndex6 = n);
+}
+
+function currentSlide7(n) {
   showSlides7(slideIndex7 = n);
+}
+
+function currentSlide8(n) {
   showSlides8(slideIndex8 = n);
+}
+
+function currentSlide9(n) {
   showSlides9(slideIndex9 = n);
+}
+
+function currentSlide10(n) {
   showSlides10(slideIndex10 = n);
+}
+
+function currentSlide11(n) {
   showSlides11(slideIndex11 = n);
+}
+
+function currentSlide12(n) {
   showSlides12(slideIndex12 = n);
+}
+
+function currentSlide13(n) {
   showSlides13(slideIndex13 = n);
+}
+
+function currentSlide14(n) {
   showSlides14(slideIndex14 = n);
 }
+
+  
 
 function showSlides1(n) {
   var i;
