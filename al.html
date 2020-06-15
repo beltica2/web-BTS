@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BTS</title>
+</head>
+<style>
+    body {
+        background: #373B44;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #373B44, #4286f4, );
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #373B44, #4286f4);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+    .gallerylist {
+        background-color: white;
+        width: auto;
+        height: auto;
+        margin: 20px;
+        position: relative;
+    }
+
+    ul {
+        font-size: 0;
+        position: relative;
+    }
+
+    ul>li {
+        display: inline-block;
+        width: 33%;
+    }
+
+    ul>li>a {
+        display: block;
+        width: auto;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    ul>li>a .screen {
+        position: relative;
+        overflow: hidden;
+    }
+
+    ul>li>a .screen::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .8);
+        z-index: 1;
+        opacity: 0;
+        transition: all .35s;
+    }
+
+    ul>li>a:hover .screen::after {
+        opacity: 1;
+    }
+
+    ul>li>a .screen .top {
+        position: absolute;
+        bottom: 150%;
+        left: 0px;
+        z-index: 2;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        font-weight: 900;
+        transition: all .35s;
+    }
+
+    ul>li>a .screen .top p {
+        display: inline-block;
+        color: white;
+        font-size: 26px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    ul>li>a .screen img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    ul>li>a:hover .top {
+        bottom: 30%;
+    }
+</style>
+
+<body>
+    <div class="gallerylist">
+        <ul>
+            <li>
+                <a href="">
+                    <div class="screen">
+                        <div class="top">4TH FULL-LENGTH ALBUM
+                            <p>MAP OF THE SOUL:7</p>
+                        </div>
+                        <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-7/img01.jpg">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="screen">
+                        <div class="top">THE 6TH MINI ALBUM
+                            <p>MAP OF THE SOUL:PERSONA</p>
+                        </div>
+                        <img src="https://ibighit.com/bts/images/bts/discography/map_of_the_soul-persona/album-cover.jpg">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div class="screen">
+                        <div class="top">REPACKAGE ALBUM
+                            <p>LOVE YOURSELF 結'ANSWER'</p>
+                        </div>
+                        <img src="https://ibighit.com/bts/images/bts/discography/love_yourself-answer/album-cover.jpg">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body></html>
